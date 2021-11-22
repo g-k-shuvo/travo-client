@@ -1,0 +1,15 @@
+.about-text h3 {
+  font-family: "Yesteryear", cursive;
+  color: #25bdc1;
+  font-size: 30px;
+}
+
+.about-text h1 {
+  font-family: "Abril Fatface", cursive;
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+
+.about-image img {
+  border-radius: 16px;
+}

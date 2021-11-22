@@ -1,0 +1,11 @@
+.team-info {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.team-info h3 {
+  font-size: 24px;
+}
+.team-info p {
+  color: #25bdc1;
+}

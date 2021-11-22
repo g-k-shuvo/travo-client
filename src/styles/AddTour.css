@@ -1,0 +1,10 @@
+.add-tour-logo {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 24px;
+}
+
+.add-tour-logo img {
+  width: 250px;
+  height: auto;
+}

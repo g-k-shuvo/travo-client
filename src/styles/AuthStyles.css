@@ -1,0 +1,47 @@
+#authentication {
+  background: #f8f8f8;
+}
+
+.auth-logo {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 24px;
+}
+
+.auth-logo img {
+  width: 150px;
+  height: auto;
+}
+
+.auth-form-body {
+  padding: 28px;
+  background: #ffffff;
+  border-radius: 7px;
+}
+
+.auth-form-body h4 {
+  font-size: 24px;
+}
+
+.extra-auth-btn {
+  padding: 8px 20px;
+  outline: none;
+  text-decoration: none;
+  font-size: 15px;
+  letter-spacing: 0.5px;
+  transition: all 0.3s;
+  border-radius: 5px;
+  background-color: rgba(57, 108, 240, 0.1);
+  border: 1px solid rgba(57, 108, 240, 0.1);
+  color: #396cf0;
+  box-shadow: 0 3px 5px 0 rgb(57 108 240 / 30%);
+}
+
+.extra-auth-btn:hover {
+  background: #396cf0;
+  color: #ffffff;
+}
+
+.extra-auth-btn svg {
+  margin-right: 6px;
+}

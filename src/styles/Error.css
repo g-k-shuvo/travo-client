@@ -1,0 +1,18 @@
+#error {
+  background: #25bdc1;
+}
+
+.error-text {
+  text-align: center;
+  padding: 150px 0;
+  color: #fff;
+}
+
+.error-text h1 {
+  font-size: 140px;
+  font-family: "Abril Fatface", cursive;
+}
+
+.error-text h2 {
+  margin-bottom: 60px;
+}

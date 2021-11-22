@@ -1,0 +1,138 @@
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Work+Sans:wght@300;400;500;600;700&family=Yesteryear&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  /* font-family: 'Abril Fatface', cursive; */
+  font-family: "Work Sans", sans-serif;
+  /* font-family: 'Yesteryear', cursive; */
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+p,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+ul li {
+  list-style: none;
+}
+
+a,
+a:hover,
+a:focus {
+  text-decoration: none;
+  color: #000;
+}
+
+/* COMMON STYLES */
+
+.section-padding {
+  padding: 90px 0;
+}
+
+.section-heading {
+  padding-bottom: 80px;
+  text-align: center;
+}
+
+.section-heading h2 {
+  font-family: "Yesteryear", cursive;
+  font-size: 30px;
+  color: #25bdc1;
+}
+
+.section-heading h1 {
+  font-family: "Abril Fatface", cursive;
+  font-size: 80px;
+}
+
+.page-heading {
+  background: linear-gradient(#30eef580, #30eef580),
+    url("../images//page-heading.jpg");
+  background-size: cover;
+  background-position: bottom bottom;
+  text-align: center;
+}
+
+.page-heading .page-heading-text {
+  color: #fff;
+}
+
+.page-heading .page-heading-text h1 {
+  font-weight: 700;
+  margin-bottom: 24px;
+}
+
+.page-heading .page-heading-text h3 {
+  font-weight: 300;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+.t-btn-lg {
+  padding: 12px 24px;
+  border: none;
+  color: #fff;
+  transition: all 0.4s;
+  background-color: #0fd9e0;
+  border-bottom: 4px solid #50eff5;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.t-btn-lg:hover {
+  background-color: #50eff5;
+  border-bottom: 4px solid #0fd9e0;
+}
+
+.t-btn-sm {
+  padding: 6px 10px;
+  border-radius: 6px;
+  border: none;
+  color: #fff;
+  transition: all 0.4s;
+  background-color: #0fd9e0;
+  border-bottom: 3px solid #50eff5;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.t-btn-sm:hover {
+  background-color: #50eff5;
+  border-bottom: 3px solid #0fd9e0;
+}
+
+.t-btn-danger {
+  border: 0;
+  margin-left: 4px;
+  outline: 0;
+  color: #fff;
+  background: #ff4e4e;
+  padding: 2px 4px;
+  border-radius: 3px;
+}
+
+.t-btn-standard {
+  border: 0;
+  outline: 0;
+  margin-right: 4px;
+
+  color: #fff;
+  background: #25bdc1;
+  padding: 2px 4px;
+  border-radius: 3px;
+}
